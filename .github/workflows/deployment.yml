@@ -20,7 +20,7 @@ env:
   ECS_SERVICE: hivo-service
   ECS_CLUSTER: hivo-cluster
   ECS_TASK_DEFINITION: ./ecs-task.json
-  CONTAINER_NAME: hivo-task
+  CONTAINER_NAME: hivo
 
 jobs:
   deploy:
