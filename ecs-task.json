@@ -5,21 +5,21 @@
     "networkMode": "bridge",
     "containerDefinitions": [
         {
-            "name": "",
+            "name": "hivo-task",
             "image": "",
             "repositoryCredentials": {
                 "credentialsParameter": ""
             },
-            "cpu": 0,
-            "memory": 0,
+            "cpu": 1,
+            "memory": 4,
             "memoryReservation": 0,
             "links": [
                 ""
             ],
             "portMappings": [
                 {
-                    "containerPort": 0,
-                    "hostPort": 0,
+                    "containerPort": 80,
+                    "hostPort": 80,
                     "protocol": "tcp"
                 }
             ],
